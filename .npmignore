@@ -1,5 +1,6 @@
-# Ignore source code
+# Ignore source code and examples
 src
+examples
 
 # ------------- Defaults ------------- #
 
@@ -137,7 +138,6 @@ web_modules/
 
 # Github templates and actions, own stuff
 .github
-api
 .husky
 .prettierrc
 .prettierignore
