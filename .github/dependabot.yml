@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    target-branch: 'alpha'
+    directory: '/'
+    schedule:
+      interval: monthly
+      time: '04:00'
+    open-pull-requests-limit: 10
+    assignees:
+      - johannrichard

@@ -1,7 +1,9 @@
+// Inspired by https://github.com/shawnjung/homebridge-plugin-dimplex-connex
 import { DateTime } from 'luxon';
 import axios, { AxiosInstance } from 'axios';
 
-// Pulled from intercepting traffic
+// Pulled from traffic between the devices,
+// the app and the services
 const APP_ID = 'Ob-Ng-id';
 const APP_SECRET = 'Ob-Y1Ngeac9TzrS0fIfDo6u-wAgWDs';
 
