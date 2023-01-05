@@ -170,12 +170,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^17.2.0":
-  version: 17.2.0
-  resolution: "@commitlint/config-conventional@npm:17.2.0"
+"@commitlint/config-conventional@npm:^17.4.0":
+  version: 17.4.0
+  resolution: "@commitlint/config-conventional@npm:17.4.0"
   dependencies:
     conventional-changelog-conventionalcommits: ^5.0.0
-  checksum: c91f8f4aac263d907f94c0ddba482f5d5a590bbbc8466c1afcb94bb0a2dfc891561647d8544744a4d0ae4c80034aa9e931197a6cdf2fb1c64f8f9e5e25c01e81
+  checksum: bc161a330c3cc9168798a58321b86ac05f8c28c5f6b521f4f1c43ede04ff75fbc31881700691685a308a327a05ad66397f9b41463403056fc5183eae18a0e9a2
   languageName: node
   linkType: hard
 
@@ -4709,7 +4709,7 @@ __metadata:
   resolution: "oekoboiler-api@workspace:."
   dependencies:
     "@commitlint/cli": ^17.2.0
-    "@commitlint/config-conventional": ^17.2.0
+    "@commitlint/config-conventional": ^17.4.0
     "@semantic-release/changelog": ^6.0.1
     "@semantic-release/commit-analyzer": ^9.0.2
     "@semantic-release/git": ^10.0.1
