@@ -47,6 +47,7 @@
     "test": "jest ./src",
     "prebuild": "rm -rf ./dist/; mkdir ./dist",
     "build": "tsc && cp package.json ./dist && cp README.md ./dist",
+    "prepare": "yarn run lint && yarn run build && yarn run depcheck",
     "op-start": "yarn build && op run --env-file=../.env -- node dist/index.js"
   },
   "dependencies": {
