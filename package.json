@@ -44,13 +44,6 @@
     "axios": "1.2.1",
     "luxon": "^3.2.1"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "yarn run build",
-      "commit-msg": "commitlint --edit"
-    }
-  },
   "lint-staged": {
     "**/*.+(js|jsx|css|less|scss|ts|tsx|md)": [
       "prettier --write"
