@@ -41,13 +41,13 @@
     "op-start": "yarn build && op run --env-file=../.env -- node dist/index.js"
   },
   "dependencies": {
-    "axios": "^1.2.2",
+    "axios": "1.2.2",
     "luxon": "^3.2.1"
   },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "build",
+      "pre-push": "yarn run build",
       "commit-msg": "commitlint --edit"
     }
   },
