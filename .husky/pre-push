@@ -1,4 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+# All commits that shall be pushed must pass the build stage 
+# Remember: in case of trouble, `git push --no-verify` might help
 yarn run build
