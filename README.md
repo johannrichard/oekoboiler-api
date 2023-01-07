@@ -4,4 +4,4 @@ Unofficial API for Oekoboiler Heatpump Boilers. A very simple API that I use to 
 
 https://github.com/johannrichard/oekoboiler-api/blob/4ecd127b11ddb669b7cfceeb1bd46e1f3950dd39/examples/oekoboiler-example.ts#L1-L30
 
-See [https://github.com/johannrichard/oekoboiler-shelly/blob/master/README.md] for some more detals.
+See [the README.md of `oekoboiler-shelly`](https://github.com/johannrichard/oekoboiler-shelly/blob/master/README.md) for some more detals.
